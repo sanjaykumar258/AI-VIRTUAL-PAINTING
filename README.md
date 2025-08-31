@@ -30,20 +30,14 @@ pip install opencv-python numpy mediapipe
 
 ## Usage
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/sahilmate/GesturePainter.git
-cd GesturePainter
-```
-
-2. Run the script:
+1. Run the script:
 
 ```bash
 python main.py
 ```
 
-3. Interact with the virtual canvas using your hand gestures. Press 'q' key in order to end the process.
+2. Interact with the virtual canvas using your hand gestures. Press 'q' key in order to end the process.
 
 ## Contributing
 
