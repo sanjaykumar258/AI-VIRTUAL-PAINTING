@@ -1,5 +1,5 @@
 
-# GesturePainter
+##AI Virtual Painting 
 
 This Python mini project utilizes OpenCV, Numpy, and MediaPipe to create a virtual painting application that allows you to draw on the screen using hand gestures.
 
