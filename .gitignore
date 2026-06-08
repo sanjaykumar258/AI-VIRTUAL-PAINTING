@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
-saved/painting_*.png
-saved/painting_*.jpg
-.gemini/
-.idea/
+saved/
 .vscode/
+.idea/
+.DS_Store
