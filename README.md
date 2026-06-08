@@ -35,11 +35,14 @@ AI-VIRTUAL-PAINTING-main/
 │   ├── index.html         # Glassmorphic dark theme dashboard
 │   ├── style.css          # Fluid UI grid styling & responsive transitions
 │   └── app.js             # API communicator & UI updates
-├── saved/                 # Location where exported paintings are stored
+├── saved/                 # Location where paintings are saved (tracked via .gitkeep)
 ├── README.md              # Project documentation
 ├── CONTRIBUTING.md        # How to contribute
 └── LICENSE                # Project license
 ```
+
+> [!NOTE]
+> The `saved/` directory is tracked on Git using a `.gitkeep` file. Individual painting exports are ignored by `.gitignore` so they won't clutter repository commits.
 
 ---
 
@@ -74,26 +77,23 @@ You can run shortcuts in both the OpenCV frame window and the web browser:
 ## 🛠️ Quick Start
 
 ### 1. Install Dependencies
-Make sure Python is installed, then open your terminal in the repository's root directory and run:
+Make sure Python is installed, then run the installer from the `backend/` folder:
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
 ### 2. Run the Application
-From the `backend/` directory, launch the painting application:
+Start the controller server:
 ```bash
 python main.py
 ```
 
 ### 3. Open the Dashboard
-Once the server prints `Server started at http://localhost:5000`, open your web browser and navigate to:
+Navigate to the local dashboard address in your web browser:
 ```
 http://localhost:5000
 ```
-
-### 4. Saving Drawings
-When you press the **Save** button in the Web UI or the `S` key on your keyboard, your drawing canvas will automatically export as a PNG file into the `saved/` directory in the project root.
 
 ---
 
