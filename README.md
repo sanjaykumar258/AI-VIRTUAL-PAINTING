@@ -37,8 +37,6 @@ AI-VIRTUAL-PAINTING-main/
 │   └── app.js             # API communicator & UI updates
 ├── saved/                 # Location where paintings are saved (tracked via .gitkeep)
 ├── README.md              # Project documentation
-├── CONTRIBUTING.md        # How to contribute
-└── LICENSE                # Project license
 ```
 
 > [!NOTE]
