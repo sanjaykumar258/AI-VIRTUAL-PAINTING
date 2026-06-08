@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
-saved/
+saved/*
+!saved/.gitkeep
 .vscode/
 .idea/
 .DS_Store
