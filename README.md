@@ -74,23 +74,26 @@ You can run shortcuts in both the OpenCV frame window and the web browser:
 ## 🛠️ Quick Start
 
 ### 1. Install Dependencies
-Make sure Python is installed, then run the installer from the `backend/` folder:
+Make sure Python is installed, then open your terminal in the repository's root directory and run:
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
 ### 2. Run the Application
-Start the controller server:
+From the `backend/` directory, launch the painting application:
 ```bash
 python main.py
 ```
 
 ### 3. Open the Dashboard
-Navigate to the local dashboard address in your web browser:
+Once the server prints `Server started at http://localhost:5000`, open your web browser and navigate to:
 ```
 http://localhost:5000
 ```
+
+### 4. Saving Drawings
+When you press the **Save** button in the Web UI or the `S` key on your keyboard, your drawing canvas will automatically export as a PNG file into the `saved/` directory in the project root.
 
 ---
 
