@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+saved/painting_*.png
+saved/painting_*.jpg
+.gemini/
+.idea/
+.vscode/
